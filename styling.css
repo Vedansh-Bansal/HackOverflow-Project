@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(32, 32, 32);
+    margin: 0;
+}
+/* **************head portion************** */
+body section{
+    background-color: white;
+    text-align: center;
+    white-space: nowrap;
+}
+.newColorButton{
+    margin-right: 10%;
+}
+.newColorButton:hover{
+    background-color: rgb(187, 0, 0);
+    color: white;
+}
+.hardButton:hover{
+    background-color: rgb(187, 0, 0);
+    color: white;
+}
+.easyButton:hover{
+    background-color: rgb(187, 0, 0);
+    color: white;
+}
+body section div{
+    display: inline;   
+}
+header{
+    text-align: center;
+    background-color: rgb(255, 217, 0);
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 0 0;
+    padding: 0 0;
+}
+header p{
+    color: white;
+    margin: 0;
+}
+section p{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bolder;
+    color: rgb(187, 0, 0);
+    margin: 0px;
+}
+.title{
+    position: relative;
+    top: 5px;
+}
+.game{
+    padding: 4px;
+}
+.randomNumbers{
+    padding: 4px;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+/* **************main portion************** */
+main{
+    text-align: center;
+}
+main .box{
+    display: inline-block;
+    background-color: aliceblue;
+    border-radius: 8px;
+    padding: 50px;
+    margin: 10px ;
+}
+/* **********************Pseudo Classes********************** */
